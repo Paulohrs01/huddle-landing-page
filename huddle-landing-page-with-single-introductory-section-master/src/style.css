@@ -1,0 +1,145 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('./images/bg-desktop.svg');
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho {
+    height: 100px;
+}
+
+.logo .logo-img {
+    width: 200px;
+    margin: 40px 80px 0px;
+}
+
+@media(max-width: 425px){
+    .cabecalho {
+        height: 60px;
+    }
+
+    .logo .logo-img {
+        margin: 25px 25px 0px;;
+        width: 150px;
+    }
+}
+
+.conteudo {
+    margin: 60px 80px 0px;
+}
+
+.conteudo .destaque {
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo .info {
+    margin: 40px; 
+    color: #FFFF;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.conteudo .titulo {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.conteudo .info p {
+    margin-top: 20px;
+}
+
+.conteudo .register .btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #FFFF;
+    margin-top: 23px;
+    width: 170px;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 40px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.conteudo .register .btn:hover{
+    color: #FFFF;
+    background-color: hsl(300, 69%, 71%);
+    transition: 0.4s ease-in-out;
+}
+
+@media(max-width: 425px){
+    .conteudo {
+        display: flex;
+        margin: 0px;
+    }
+    .conteudo .destaque {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+     .conteudo .img .img-ilustracao{
+        width: 300px;
+     }
+
+     .conteudo .info {
+       margin: 0px;
+       font-size: 16px;
+       margin: 40px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+    }
+
+    .conteudo .titulo{
+        font-size: 29px;
+        text-align: center;
+    }
+}
+
+.social .sociais{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+
+.social .sociais a{
+    color: #FFFF;
+    font-size: 40px;
+    padding: 7px;
+    transition: 0.4s ease-in-out;
+}
+
+.social .sociais a:hover{
+    color: hsl(300, 69%, 71%);
+    transition: 0.4s ease-in-out;
+}
+
+@media(max-width: 425px) {
+
+    .social {
+        height: 100px;
+        margin: 0px;
+        margin: 3px 0px;
+    }
+    .social .sociais {
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
